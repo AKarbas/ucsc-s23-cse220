@@ -1,0 +1,1 @@
+ghcr.io/akarbas/ucsc-s23-cse220/scarab:0.1 

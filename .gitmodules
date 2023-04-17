@@ -1,0 +1,3 @@
+[submodule "scarab"]
+	path = scarab
+	url = https://github.com/hpsresearchgroup/scarab.git
