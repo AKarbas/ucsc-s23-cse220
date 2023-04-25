@@ -16,7 +16,7 @@ echo "Post Process: $4"
 RUN_DIR="$(pwd)/runs/${TRACE_NAME}"
 echo "Run Directory: $RUN_DIR";
 
-EXTRA_ARGS=" --fetch_off_path_ops=0 --inst_limit 1000" # --decode_cycles 10 --map_cycles 10
+EXTRA_ARGS=" --fetch_off_path_ops=0 --inst_limit 10000000" # --decode_cycles 10 --map_cycles 10
 
 mkdir -p "${RUN_DIR}"
 cp "${DEFAULT_PARAMS_IN}" "${RUN_DIR}/PARAMS.in"
