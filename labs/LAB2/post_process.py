@@ -12,9 +12,6 @@ metrics = [x.lower() for x in sys.argv[2:]]
 csv_path = os.path.join(path, 'out.csv')
 res = {}
 
-csv_output = csv.writer(open(csv_path, 'w'))
-csv_output.writerow(['entry','total','ratio'])
-
 for f in files:
     if (os.path.isdir(f)
         or not f.endswith('.out')
@@ -31,9 +28,9 @@ for f in files:
                 metric, total, ratio = line_parts[:3]
                 res[metric] = (total, ratio)
 
-with open(csv_path, 'wt') as csv_file:
+with open(csv_path, 'w', newline='', encoding='utf-8') as csv_file:
     csv_writer = csv.writer(csv_file)
-    csv_writer.writerow(['entry', 'tota', 'ratio'])
+    csv_writer.writerow(['metric', 'total', 'ratio'])
     for metric, vals in res.items():
         print(metric, vals)
         csv_writer.writerow([metric, *vals])

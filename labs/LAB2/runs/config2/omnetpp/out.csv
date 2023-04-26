@@ -1,4 +1,4 @@
-entry,total,ratio
-pc,n/a,1.05798
+metric,total,ratio
+ipc,n/a,1.05798
 bp_on_path_mispredict,23532,1.133%
 op_issued,12848489,12848489
