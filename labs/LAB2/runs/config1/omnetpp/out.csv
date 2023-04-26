@@ -1,4 +1,5 @@
-metric,total,ratio
-ipc,n/a,1.31269
-bp_on_path_mispredict,23596,1.136%
-op_issued,12848474,12848474
+metric,val
+ipc,1.31269
+bp_on_path_mispredict,1.136%
+icache_miss,1.083%
+dcache_miss,6.301%

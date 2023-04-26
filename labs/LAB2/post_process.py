@@ -23,15 +23,15 @@ for f in files:
             line_parts = line.strip().lower().split()
             if 'ipc:' in line_parts and 'ipc' in metrics:
                 ratio = line_parts[line_parts.index('ipc:') + 1]
-                res['ipc'] = ('n/a', ratio)
+                res['ipc'] = ratio
             if any(x in metrics for x in line_parts):
-                metric, total, ratio = line_parts[:3]
-                res[metric] = (total, ratio)
+                metric, _, ratio = line_parts[:3]
+                res[metric] = ratio
 
 with open(csv_path, 'w', newline='', encoding='utf-8') as csv_file:
     csv_writer = csv.writer(csv_file)
-    csv_writer.writerow(['metric', 'total', 'ratio'])
-    for metric, vals in res.items():
-        print(metric, vals)
-        csv_writer.writerow([metric, *vals])
+    csv_writer.writerow(['metric', 'val'])
+    for metric, val in res.items():
+        print(metric, val)
+        csv_writer.writerow([metric, val])
 
