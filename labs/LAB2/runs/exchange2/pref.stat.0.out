@@ -2,7 +2,7 @@
 ####################################################################################################
 Core 0
 ####################################################################################################
-Cumulative:        Cycles: 4015925               Instructions: 10000004              IPC: 2.49009
+Cumulative:        Cycles: 5436962               Instructions: 10000004              IPC: 1.83926
 
 PREF_DL0REQ_QUEUE_HIT_BY_DEMAND                      0                              0              
 
@@ -36,7 +36,7 @@ PREF_NEWREQ_MATCHED                                  7                          
 
 PREF_UMLC_REQ_QUEUE_MATCHED_REQ                      0                              0              
 
-PREF_UL1REQ_QUEUE_MATCHED_REQ                       27                             27              
+PREF_UL1REQ_QUEUE_MATCHED_REQ                       29                             29              
 
 PREF_DL0REQ_QUEUE_MATCHED_REQ                        0                              0              
 
@@ -46,7 +46,7 @@ L1_PREF_UNIQUE_HIT                                 121                          
 
 L1_PREF_LATE                                         2                              2              
 
-L1_LATE_PREF_CYCLES                                 80                             80              
+L1_LATE_PREF_CYCLES                                 81                             81              
 
 L1_LATE_PREF_CYCLES_DIST_0                           2      100.000%                2      100.000%
 L1_LATE_PREF_CYCLES_DIST_100                         0        0.000%                0        0.000%

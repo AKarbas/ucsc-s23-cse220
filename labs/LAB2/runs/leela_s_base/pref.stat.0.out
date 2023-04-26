@@ -2,7 +2,7 @@
 ####################################################################################################
 Core 0
 ####################################################################################################
-Cumulative:        Cycles: 6480434               Instructions: 10000000              IPC: 1.54311
+Cumulative:        Cycles: 9976402               Instructions: 10000004              IPC: 1.00237
 
 PREF_DL0REQ_QUEUE_HIT_BY_DEMAND                      0                              0              
 
@@ -26,34 +26,34 @@ PREF_L1Q_STALL                                       0                          
 
 PREF_UMLC_REQ_SEND_QUEUE_STALL                       0                              0              
 
-PREF_UL1REQ_SEND_QUEUE_STALL                      3048                           3048              
+PREF_UL1REQ_SEND_QUEUE_STALL                      2606                           2606              
 
 PREF_UMLC_REQ_QUEUE_SENTREQ                          0                              0              
 
-PREF_UL1REQ_QUEUE_SENTREQ                         1075                           1075              
+PREF_UL1REQ_QUEUE_SENTREQ                         1068                           1068              
 
-PREF_NEWREQ_MATCHED                                 51                             51              
+PREF_NEWREQ_MATCHED                                 48                             48              
 
 PREF_UMLC_REQ_QUEUE_MATCHED_REQ                      0                              0              
 
-PREF_UL1REQ_QUEUE_MATCHED_REQ                       99                             99              
+PREF_UL1REQ_QUEUE_MATCHED_REQ                      108                            108              
 
 PREF_DL0REQ_QUEUE_MATCHED_REQ                        0                              0              
 
-L1_PREF_HIT                                       5841                           5841              
+L1_PREF_HIT                                       6324                           6324              
 
-L1_PREF_UNIQUE_HIT                                 423                            423              
+L1_PREF_UNIQUE_HIT                                 466                            466              
 
-L1_PREF_LATE                                        74                             74              
+L1_PREF_LATE                                        51                             51              
 
-L1_LATE_PREF_CYCLES                               7247                           7247              
+L1_LATE_PREF_CYCLES                               8775                           8775              
 
-L1_LATE_PREF_CYCLES_DIST_0                          39       52.703%               39       52.703%
-L1_LATE_PREF_CYCLES_DIST_100                        31       41.892%               31       41.892%
-L1_LATE_PREF_CYCLES_DIST_200                         4        5.405%                4        5.405%
-L1_LATE_PREF_CYCLES_DIST_300                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_0                          20       39.216%               20       39.216%
+L1_LATE_PREF_CYCLES_DIST_100                        16       31.373%               16       31.373%
+L1_LATE_PREF_CYCLES_DIST_200                         5        9.804%                5        9.804%
+L1_LATE_PREF_CYCLES_DIST_300                         5        9.804%                5        9.804%
 L1_LATE_PREF_CYCLES_DIST_400                         0        0.000%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_500                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_500                         5        9.804%                5        9.804%
 L1_LATE_PREF_CYCLES_DIST_600                         0        0.000%                0        0.000%
 L1_LATE_PREF_CYCLES_DIST_700                         0        0.000%                0        0.000%
 L1_LATE_PREF_CYCLES_DIST_800                         0        0.000%                0        0.000%
@@ -69,8 +69,8 @@ L1_LATE_PREF_CYCLES_DIST_1700                        0        0.000%            
 L1_LATE_PREF_CYCLES_DIST_1800                        0        0.000%                0        0.000%
 L1_LATE_PREF_CYCLES_DIST_1900                        0        0.000%                0        0.000%
 L1_LATE_PREF_CYCLES_DIST_2000                        0        0.000%                0        0.000%
-                                                    74      100.000%               74      100.000%
-                                                  0.53         0.46              0.53         0.46
+                                                    51      100.000%               51      100.000%
+                                                  1.29         1.32              1.29         1.32
 
 MLC_PREF_HIT                                         0                              0              
 

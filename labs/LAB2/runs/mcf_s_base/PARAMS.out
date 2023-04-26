@@ -81,8 +81,8 @@
 --rs_sizes 97
 --rs_connections 0
 --fu_types 0 0 0 0 0 0 0 0
---decode_cycles 5
---map_cycles 5
+--decode_cycles 10
+--map_cycles 10
 --extra_recovery_cycles 0                         # Number of cycles before the fetching of the first instructions after recovery.
 --extra_redirect_cycles 0                         # Number of cycles before the fetching of the first instructions after redirect.
 --fetch_across_cache_lines 1
@@ -469,8 +469,8 @@ NODE_RETIRE_RATE                         10
 RS_SIZES                                 "256"                           97
 RS_CONNECTIONS                           "xF"                            0
 FU_TYPES                                 "0, 0, 0, 0"                    0 0 0 0 0 0 0 0
-DECODE_CYCLES                            1                               5
-MAP_CYCLES                               1                               5
+DECODE_CYCLES                            1                               10
+MAP_CYCLES                               1                               10
 EXTRA_RECOVERY_CYCLES                    0                               0                         # Number of cycles before the fetching of the first instructions after recovery.
 EXTRA_REDIRECT_CYCLES                    0                               0                         # Number of cycles before the fetching of the first instructions after redirect.
 EXTRA_CALLSYS_CYCLES                     20                        const 
@@ -485,35 +485,35 @@ FETCH_BREAK_ON_TAKEN                     FALSE                           1
 FETCH_TAKEN_BUBBLE_CYCLES                0                               0
 WP_COLLECT_STATS                         FALSE                           
 SWITCH_IC_FETCH_ON_RECOVERY              TRUE                            
-OP_INV_DELAY                             1                               
-OP_NOP_DELAY                             1                               
-OP_CF_DELAY                              1                               
-OP_MOV_DELAY                             1                               
-OP_CMOV_DELAY                            1                               
-OP_LDA_DELAY                             1                               
-OP_IMEM_DELAY                            1                               
-OP_IADD_DELAY                            1                               
-OP_IMUL_DELAY                            3                               
-OP_IDIV_DELAY                            -20                             
-OP_ICMP_DELAY                            1                               
-OP_LOGIC_DELAY                           1                               
-OP_SHIFT_DELAY                           1                               
-OP_FMEM_DELAY                            1                               
-OP_FCVT_DELAY                            3                               
-OP_FADD_DELAY                            3                               
-OP_FMUL_DELAY                            5                               
-OP_FMA_DELAY                             5                               
-OP_FDIV_DELAY                            -20                             
-OP_FCMP_DELAY                            3                               
-OP_FCMOV_DELAY                           1                               
-OP_GATHER_DELAY                          12                              
-OP_SCATTER_DELAY                         18                              
-OP_PIPELINED_FAST_DELAY                  2                               
-OP_PIPELINED_MEDIUM_DELAY                5                               
-OP_PIPELINED_SLOW_DELAY                  10                              
-OP_NOTPIPELINED_MEDIUM_DELAY             -5                              
-OP_NOTPIPELINED_SLOW_DELAY               -20                             
-OP_NOTPIPELINED_VERY_SLOW_DELAY          -100                            
+OP_INV_DELAY                             2                               
+OP_NOP_DELAY                             2                               
+OP_CF_DELAY                              2                               
+OP_MOV_DELAY                             2                               
+OP_CMOV_DELAY                            2                               
+OP_LDA_DELAY                             2                               
+OP_IMEM_DELAY                            2                               
+OP_IADD_DELAY                            2                               
+OP_IMUL_DELAY                            6                               
+OP_IDIV_DELAY                            -40                             
+OP_ICMP_DELAY                            2                               
+OP_LOGIC_DELAY                           2                               
+OP_SHIFT_DELAY                           2                               
+OP_FMEM_DELAY                            2                               
+OP_FCVT_DELAY                            6                               
+OP_FADD_DELAY                            6                               
+OP_FMUL_DELAY                            10                              
+OP_FMA_DELAY                             10                              
+OP_FDIV_DELAY                            -40                             
+OP_FCMP_DELAY                            6                               
+OP_FCMOV_DELAY                           2                               
+OP_GATHER_DELAY                          24                              
+OP_SCATTER_DELAY                         36                              
+OP_PIPELINED_FAST_DELAY                  4                               
+OP_PIPELINED_MEDIUM_DELAY                10                              
+OP_PIPELINED_SLOW_DELAY                  20                              
+OP_NOTPIPELINED_MEDIUM_DELAY             -10                             
+OP_NOTPIPELINED_SLOW_DELAY               -40                             
+OP_NOTPIPELINED_VERY_SLOW_DELAY          -200                            
 UNIFORM_OP_DELAY                         0                               
 STALL_ON_WAIT_MEM                        TRUE                            
 STORES_DO_NOT_BLOCK_WINDOW               FALSE                           1
