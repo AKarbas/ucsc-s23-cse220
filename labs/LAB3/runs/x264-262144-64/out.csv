@@ -1,0 +1,6 @@
+metric,val
+ipc,2.83175
+dcache_miss,4.100%
+dcache_miss_compulsory,0.0638
+dcache_miss_capacity,0.9273
+dcache_miss_conflict,0.0089
