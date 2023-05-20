@@ -4,3 +4,5 @@ dcache_miss,1.067%
 dcache_miss_compulsory,0.0105
 dcache_miss_capacity,0.9114
 dcache_miss_conflict,0.0781
+l1_hit,98.661%
+l1_miss,1.339%
