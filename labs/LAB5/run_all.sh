@@ -8,10 +8,6 @@ ALL_TRACE_NAMES=$(find "${ALL_TRACES_DIR}" -type d -iname "*.dir" | grep drmemtr
 ALL_RUN_CONFIGS=$(cat <<-END
   0
   1
-  2
-  5
-  10
-  20
 END
 )
 
