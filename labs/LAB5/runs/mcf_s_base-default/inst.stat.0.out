@@ -1,0 +1,103 @@
+/* -*- Mode: c -*- */
+####################################################################################################
+Core 0
+####################################################################################################
+Cumulative:        Cycles: 12241957              Instructions: 10000002              IPC: 0.81686
+
+ST_OP_INV                                            0        0.000%                0        0.000%
+ST_OP_NOP                                       375466        3.137%           375466        3.137%
+ST_OP_CF                                       2552232       21.323%          2552232       21.323%
+ST_OP_MOV                                      1524438       12.736%          1524438       12.736%
+ST_OP_CMOV                                       13837        0.116%            13837        0.116%
+ST_OP_LDA                                       229370        1.916%           229370        1.916%
+ST_OP_IMEM                                     4248431       35.495%          4248431       35.495%
+ST_OP_IADD                                     1288760       10.767%          1288760       10.767%
+ST_OP_IMUL                                       19287        0.161%            19287        0.161%
+ST_OP_IDIV                                        8968        0.075%             8968        0.075%
+ST_OP_ICMP                                     1008412        8.425%          1008412        8.425%
+ST_OP_LOGIC                                     658564        5.502%           658564        5.502%
+ST_OP_SHIFT                                      41362        0.346%            41362        0.346%
+ST_OP_FMEM                                           0        0.000%                0        0.000%
+ST_OP_FCVT                                           0        0.000%                0        0.000%
+ST_OP_FADD                                           0        0.000%                0        0.000%
+ST_OP_FMUL                                           0        0.000%                0        0.000%
+ST_OP_FMA                                            0        0.000%                0        0.000%
+ST_OP_FDIV                                           0        0.000%                0        0.000%
+ST_OP_FCMP                                           0        0.000%                0        0.000%
+ST_OP_FCMOV                                          0        0.000%                0        0.000%
+ST_OP_GATHER                                         0        0.000%                0        0.000%
+ST_OP_SCATTER                                        0        0.000%                0        0.000%
+ST_OP_PIPELINED_FAST                                 0        0.000%                0        0.000%
+ST_OP_PIPELINED_MEDIUM                               0        0.000%                0        0.000%
+ST_OP_PIPELINED_SLOW                                 0        0.000%                0        0.000%
+ST_OP_NOTPIPELINED_MEDIUM                            0        0.000%                0        0.000%
+ST_OP_NOTPIPELINED_SLOW                              0        0.000%                0        0.000%
+ST_OP_NOTPIPELINED_VERY_SLOW                         0        0.000%                0        0.000%
+                                              11969127      100.000%         11969127      100.000%
+                                                  5.33         2.81              5.33         2.81
+
+ST_NOT_CF                                      9416895       78.677%          9416895       78.677%
+ST_CF_BR                                        216264        1.807%           216264        1.807%
+ST_CF_CBR                                      1883890       15.740%          1883890       15.740%
+ST_CF_CALL                                        4584        0.038%             4584        0.038%
+ST_CF_IBR                                            0        0.000%                0        0.000%
+ST_CF_ICALL                                     221452        1.850%           221452        1.850%
+ST_CF_ICO                                            0        0.000%                0        0.000%
+ST_CF_RET                                       226042        1.889%           226042        1.889%
+ST_CF_SYS                                            0        0.000%                0        0.000%
+                                              11969127      100.000%         11969127      100.000%
+                                                  0.56         1.22              0.56         1.22
+
+ST_BAR_NONE                                   11969127      100.000%         11969127      100.000%
+ST_BAR_FETCH                                         0        0.000%                0        0.000%
+ST_BAR_ISSUE                                         0        0.000%                0        0.000%
+ST_BAR_BOTH                                          0        0.000%                0        0.000%
+                                              11969127      100.000%         11969127      100.000%
+                                                  0.00         0.00              0.00         0.00
+
+ST_NOT_MEM                                     7720696       64.505%          7720696       64.505%
+ST_MEM_LD                                      3437135       28.717%          3437135       28.717%
+ST_MEM_ST                                       811296        6.778%           811296        6.778%
+ST_MEM_PF                                            0        0.000%                0        0.000%
+ST_MEM_WH                                            0        0.000%                0        0.000%
+ST_MEM_EVICT                                         0        0.000%                0        0.000%
+                                              11969127      100.000%         11969127      100.000%
+                                                  0.42         0.51              0.42         0.51
+
+ST_NOT_MEM_OFFPATH                                   0         -nan%                0         -nan%
+ST_MEM_LD_OFFPATH                                    0         -nan%                0         -nan%
+ST_MEM_ST_OFFPATH                                    0         -nan%                0         -nan%
+ST_MEM_PF_OFFPATH                                    0         -nan%                0         -nan%
+ST_MEM_WH_OFFPATH                                    0         -nan%                0         -nan%
+ST_MEM_EVIC_OFFPATHT                                 0         -nan%                0         -nan%
+                                                     0         -nan%                0         -nan%
+                                                  -nan         -nan              -nan         -nan
+
+ST_OP_ONPATH                                  11969127                       11969127              
+
+ST_OP_OFFPATH                                        0                              0              
+
+ST_FAKE_OP_OFFPATH                                   0         -nan%                0         -nan%
+ST_NOT_FAKE_OP_OFFPATH                               0         -nan%                0         -nan%
+                                                     0         -nan%                0         -nan%
+                                                  -nan         -nan              -nan         -nan
+
+ST_FAKE_REASON_NOT_FAKE                              0         -nan%                0         -nan%
+ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED             0         -nan%                0         -nan%
+ST_FAKE_REASON_RETURN_TO_NOT_INSTRUMENTED             0         -nan%                0         -nan%
+ST_FAKE_REASON_NONRET_CF_TO_NOT_INSTRUMENTED             0         -nan%                0         -nan%
+ST_FAKE_REASON_NOT_TAKEN_TO_NOT_INSTRUMENTED             0         -nan%                0         -nan%
+ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION             0         -nan%                0         -nan%
+                                                     0         -nan%                0         -nan%
+                                                  -nan         -nan              -nan         -nan
+
+ST_INST_ONPATH                                10000158                       10000158              
+
+ST_INST_OFFPATH                                      0                              0              
+
+STATIC_PIN_NOP                                       0                              0              
+
+DYNAMIC_PIN_REP_GREATER_256                          0                              0              
+
+
+

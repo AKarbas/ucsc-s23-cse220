@@ -1,0 +1,53 @@
+/* -*- Mode: c -*- */
+####################################################################################################
+Core 0
+####################################################################################################
+Cumulative:        Cycles: 5868882               Instructions: 10000004              IPC: 1.70390
+
+PREF_SMS_TRAIN_CALL                                  0                              0              
+
+PREF_SMS_TRAIN_FOUND_IN_AT                           0                              0              
+
+PREF_SMS_TRAIN_FOUND_IN_FT                           0                              0              
+
+PREF_SMS_TRAIN_FOUND_SAME_OFFSET_IN_FT               0                              0              
+
+PREF_SMS_TRAIN_FOUND_OTHER_OFFSET_IN_FT              0                              0              
+
+PREF_SMS_PHT_INSERT                                  0                              0              
+
+PREF_SMS_PHT_EVICT                                   0                              0              
+
+PREF_SMS_AT_EVICT_TO_PHT                             0                              0              
+
+PREF_SMS_ENDGEN                                      0                              0              
+
+PREF_SMS_ENDGEN_TO_PHT                               0                              0              
+
+PREF_SMS_ENDGEN_IN_FT                                0                              0              
+
+PREF_SMS_ENDGEN_IN_AT                                0                              0              
+
+PREF_SMS_ENDGEN_NOT_FOUND                            0                              0              
+
+PREF_SMS_FETCH_REGION_CALLS                          0                              0              
+
+PREF_SMS_LINE_FETCH_TOTAL                            0                              0              
+
+PREF_SMS_LINE_FETCH_SUCCESS                          0                              0              
+
+PREF_SMS_WINDOW_1                                    0         -nan%                0         -nan%
+PREF_SMS_WINDOW_2                                    0         -nan%                0         -nan%
+PREF_SMS_WINDOW_4                                    0         -nan%                0         -nan%
+PREF_SMS_WINDOW_8                                    0         -nan%                0         -nan%
+PREF_SMS_WINDOW_16                                   0         -nan%                0         -nan%
+PREF_SMS_WINDOW_24                                   0         -nan%                0         -nan%
+PREF_SMS_WINDOW_32                                   0         -nan%                0         -nan%
+PREF_SMS_WINDOW_64                                   0         -nan%                0         -nan%
+                                                     0         -nan%                0         -nan%
+                                                  -nan         -nan              -nan         -nan
+
+PREF_SMS_WINDOW_WTF                                  0                              0              
+
+
+

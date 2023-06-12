@@ -1,0 +1,1080 @@
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=x264
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*x264*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir -type f -iname '*x264*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=exchange2
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*exchange2*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir -type f -iname '*exchange2*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=exchange2
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*exchange2*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir -type f -iname '*exchange2*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=exchange2
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*exchange2*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir -type f -iname '*exchange2*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=x264
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*x264*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir -type f -iname '*x264*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=x264
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*x264*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir -type f -iname '*x264*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=specrand_i
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*specrand_i*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir -type f -iname '*specrand_i*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=leela_s_base
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*leela_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir -type f -iname '*leela_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=leela_s_base
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*leela_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir -type f -iname '*leela_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=leela_s_base
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*leela_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir -type f -iname '*leela_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=leela_s_base
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*leela_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir -type f -iname '*leela_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/leela_s_base-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/trace/drmemtrace.leela_s_base.mytest-m64.555086.2935.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.leela_s_base.mytest-m64.555086.8417.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=deepsjeng
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*deepsjeng*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir -type f -iname '*deepsjeng*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=exchange2
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*exchange2*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir -type f -iname '*exchange2*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/exchange2-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/trace/drmemtrace.exchange2.553888.0626.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.exchange2.553888.1738.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=x264
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*x264*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir -type f -iname '*x264*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/x264-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/trace/drmemtrace.x264.555077.8068.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.x264.555077.8155.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=deepsjeng
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*deepsjeng*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir -type f -iname '*deepsjeng*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=specrand_i
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*specrand_i*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir -type f -iname '*specrand_i*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=xalancbmk_s_base
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*xalancbmk_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir -type f -iname '*xalancbmk_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=xalancbmk_s_base
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*xalancbmk_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir -type f -iname '*xalancbmk_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=perlbench_s_base
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*perlbench_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir -type f -iname '*perlbench_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=perlbench_s_base
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*perlbench_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir -type f -iname '*perlbench_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=sgcc_base
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*sgcc_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir -type f -iname '*sgcc_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=specrand_i
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*specrand_i*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir -type f -iname '*specrand_i*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=specrand_i
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*specrand_i*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir -type f -iname '*specrand_i*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/specrand_i-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/trace/drmemtrace.specrand_i.553922.2837.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.specrand_i.553922.3230.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=xalancbmk_s_base
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*xalancbmk_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir -type f -iname '*xalancbmk_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=omnetpp
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*omnetpp*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir -type f -iname '*omnetpp*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=deepsjeng
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*deepsjeng*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir -type f -iname '*deepsjeng*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=xalancbmk_s_base
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*xalancbmk_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir -type f -iname '*xalancbmk_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/xalancbmk_s_base-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/trace/drmemtrace.xalancbmk_s_base.mytest-m64.555084.7482.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.xalancbmk_s_base.mytest-m64.555084.9837.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=deepsjeng
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*deepsjeng*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir -type f -iname '*deepsjeng*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/deepsjeng-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/trace/drmemtrace.deepsjeng.553743.6815.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.deepsjeng.553743.1618.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=perlbench_s_base
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*perlbench_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir -type f -iname '*perlbench_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=mcf_s_base
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*mcf_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir -type f -iname '*mcf_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=mcf_s_base
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*mcf_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir -type f -iname '*mcf_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=omnetpp
++ TRACE_CONFIG_NAME=default
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*omnetpp*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir -type f -iname '*omnetpp*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-default
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-default
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-default/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-default
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=sgcc_base
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*sgcc_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir -type f -iname '*sgcc_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=sgcc_base
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*sgcc_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir -type f -iname '*sgcc_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=omnetpp
++ TRACE_CONFIG_NAME=ghb
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*omnetpp*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir -type f -iname '*omnetpp*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-ghb
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-ghb
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-ghb/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-ghb
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=1 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=perlbench_s_base
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*perlbench_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir -type f -iname '*perlbench_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/perlbench_s_base-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/trace/drmemtrace.perlbench_s_base.mytest-m64.554262.9223.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.perlbench_s_base.mytest-m64.554262.0160.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=sgcc_base
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*sgcc_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir -type f -iname '*sgcc_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/sgcc_base-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/trace/drmemtrace.sgcc_base.mytest-m64.555062.3859.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.sgcc_base.mytest-m64.555062.6619.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=mcf_s_base
++ TRACE_CONFIG_NAME=none
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*mcf_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir -type f -iname '*mcf_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-none
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-none
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-none/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-none
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=0
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=omnetpp
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*omnetpp*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir -type f -iname '*omnetpp*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/omnetpp-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/trace/drmemtrace.omnetpp.552936.3514.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.omnetpp.552936.5555.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ . vars.env
+++ export ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ ALL_TRACES_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/
+++ export SCARAB_DIR=/scarab-dev/scarab/
+++ SCARAB_DIR=/scarab-dev/scarab/
+++ export DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
+++ DEFAULT_PARAMS_IN=/scarab-dev/scarab//src/PARAMS.kaby_lake
++ TRACE_NAME=mcf_s_base
++ TRACE_CONFIG_NAME=sms
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/ -type d -iname '*mcf_s_base*.dir'
++ TRACE_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir
+++ find /outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir -type f -iname '*mcf_s_base*.trace*'
++ TRACE_FILE=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz
++ TRACE_RAW_DIR=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw
+++ pwd
++ RUN_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-sms
++ EXTRA_ARGS=
++ EXTRA_ARGS=' --fetch_off_path_ops=0'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000'
++ EXTRA_ARGS=' --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1'
+++ pwd
++ START_DIR=/outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5
++ mkdir -p /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-sms
++ cp /scarab-dev/scarab//src/PARAMS.kaby_lake /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-sms/PARAMS.in
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5/runs/mcf_s_base-sms
++ /scarab-dev/scarab//src/scarab --frontend memtrace --cbp_trace_r0=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/trace/drmemtrace.mcf_s_base.mytest-m64.554166.7956.trace.gz --memtrace_modules_log=/outside/Development/ucsc/coursework/S23_CSE220/cse220-traces/drmemtrace.mcf_s_base.mytest-m64.554166.9011.dir/raw --fetch_off_path_ops=0 --inst_limit=10000000 --pref_sms_pht_size=2048 --pref_ghb_on=0 --pref_stream_on=0 --pref_stride_on=0 --pref_stridepc_on=0 --pref_phase_on=0 --pref_2dc_on=0 --pref_markov_on=0 --pref_sms_on=1
++ cd /outside/Development/ucsc/coursework/S23_CSE220/ucsc-s23-cse220/labs/LAB5

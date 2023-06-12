@@ -1,0 +1,53 @@
+/* -*- Mode: c -*- */
+####################################################################################################
+Core 0
+####################################################################################################
+Cumulative:        Cycles: 5301063               Instructions: 10000003              IPC: 1.88641
+
+PREF_SMS_TRAIN_CALL                              17839                          17839              
+
+PREF_SMS_TRAIN_FOUND_IN_AT                       14418                          14418              
+
+PREF_SMS_TRAIN_FOUND_IN_FT                        1285                           1285              
+
+PREF_SMS_TRAIN_FOUND_SAME_OFFSET_IN_FT             191                            191              
+
+PREF_SMS_TRAIN_FOUND_OTHER_OFFSET_IN_FT           1094                           1094              
+
+PREF_SMS_PHT_INSERT                               1030                           1030              
+
+PREF_SMS_PHT_EVICT                                 966                            966              
+
+PREF_SMS_AT_EVICT_TO_PHT                          1002                           1002              
+
+PREF_SMS_ENDGEN                                   1840                           1840              
+
+PREF_SMS_ENDGEN_TO_PHT                              28                             28              
+
+PREF_SMS_ENDGEN_IN_FT                                7                              7              
+
+PREF_SMS_ENDGEN_IN_AT                               28                             28              
+
+PREF_SMS_ENDGEN_NOT_FOUND                         1805                           1805              
+
+PREF_SMS_FETCH_REGION_CALLS                        179                            179              
+
+PREF_SMS_LINE_FETCH_TOTAL                         5728                           5728              
+
+PREF_SMS_LINE_FETCH_SUCCESS                       5728                           5728              
+
+PREF_SMS_WINDOW_1                                    0        0.000%                0        0.000%
+PREF_SMS_WINDOW_2                                  800       77.670%              800       77.670%
+PREF_SMS_WINDOW_4                                   80        7.767%               80        7.767%
+PREF_SMS_WINDOW_8                                   36        3.495%               36        3.495%
+PREF_SMS_WINDOW_16                                  48        4.660%               48        4.660%
+PREF_SMS_WINDOW_24                                  44        4.272%               44        4.272%
+PREF_SMS_WINDOW_32                                  22        2.136%               22        2.136%
+PREF_SMS_WINDOW_64                                   0        0.000%                0        0.000%
+                                                  1030      100.000%             1030      100.000%
+                                                  1.57         1.24              1.57         1.24
+
+PREF_SMS_WINDOW_WTF                                  0                              0              
+
+
+

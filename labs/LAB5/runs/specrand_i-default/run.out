@@ -1,0 +1,17 @@
+Scarab gitrev: 994d94d
+Scarab started at Mon Jun 12 03:49:11 2023
+
+Initialized Ramulator. 
+** Heartbeat:  10% -- { 1000001 } -- 0.00 KIPS (333.33 KIPS)
+** Heartbeat:  20% -- { 2000004 } -- 500.00 KIPS (400.00 KIPS)
+** Heartbeat:  30% -- { 3000007 } -- 333.33 KIPS (375.00 KIPS)
+** Heartbeat:  40% -- { 4000007 } -- 333.33 KIPS (363.64 KIPS)
+** Heartbeat:  50% -- { 5000009 } -- 333.33 KIPS (357.14 KIPS)
+** Heartbeat:  60% -- { 6000012 } -- 333.33 KIPS (352.94 KIPS)
+** Heartbeat:  70% -- { 7000015 } -- 500.00 KIPS (368.42 KIPS)
+** Heartbeat:  80% -- { 8000015 } -- 1000.00 KIPS (400.00 KIPS)
+** Heartbeat:  90% -- { 9000015 } -- 500.00 KIPS (409.09 KIPS)
+** Core 0 Finished:    insts:10000001    cycles:3495416     time:1092317500000       -- 2.86 IPC (2.86 IPC) --  N/A  KIPS (416.67 KIPS)
+done
+Scarab finished at Mon Jun 12 03:49:35 2023
+

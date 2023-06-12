@@ -4,16 +4,16 @@ set -eEuxo pipefail
 . vars.env
 
 TRACE_NAME=$1
-SMS_ON=$2
+TRACE_CONFIG_NAME=$2
 TRACE_DIR=$(find "${ALL_TRACES_DIR}" -type d -iname "*${TRACE_NAME}*.dir")
 TRACE_FILE=$(find "${TRACE_DIR}" -type f -iname "*${TRACE_NAME}*.trace*")
 TRACE_RAW_DIR=${TRACE_DIR}/raw
-RUN_DIR="$(pwd)/runs/${TRACE_NAME}-sms${SMS_ON}"
+RUN_DIR="$(pwd)/runs/${TRACE_NAME}-${TRACE_CONFIG_NAME}"
 
 EXTRA_ARGS=""
 EXTRA_ARGS="${EXTRA_ARGS} --fetch_off_path_ops=0"
-EXTRA_ARGS="${EXTRA_ARGS} --inst_limit=100000000" # 100M
-EXTRA_ARGS="${EXTRA_ARGS} --pref_sms_on=${SMS_ON}"
+EXTRA_ARGS="${EXTRA_ARGS} --inst_limit=10000000" # 10M
+EXTRA_ARGS="${EXTRA_ARGS} ${@:3}"
 
 START_DIR=$(pwd)
 mkdir -p "${RUN_DIR}"
